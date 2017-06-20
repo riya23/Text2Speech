@@ -14,6 +14,8 @@
 		76BB60461EF7DC7600B6EBB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BB60441EF7DC7600B6EBB1 /* LaunchScreen.storyboard */; };
 		76BB60511EF7DC7600B6EBB1 /* Text2SpeechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB60501EF7DC7600B6EBB1 /* Text2SpeechTests.swift */; };
 		76BB605C1EF7DC7600B6EBB1 /* Text2SpeechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB605B1EF7DC7600B6EBB1 /* Text2SpeechUITests.swift */; };
+		76BB606B1EF7E32800B6EBB1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BB606A1EF7E32800B6EBB1 /* AVFoundation.framework */; };
+		76BB606F1EF84CAD00B6EBB1 /* S2TViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB606E1EF84CAD00B6EBB1 /* S2TViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		76BB60571EF7DC7600B6EBB1 /* Text2SpeechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Text2SpeechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76BB605B1EF7DC7600B6EBB1 /* Text2SpeechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2SpeechUITests.swift; sourceTree = "<group>"; };
 		76BB605D1EF7DC7600B6EBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76BB606A1EF7E32800B6EBB1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		76BB606E1EF84CAD00B6EBB1 /* S2TViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2TViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76BB606B1EF7E32800B6EBB1 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				76BB604F1EF7DC7600B6EBB1 /* Text2SpeechTests */,
 				76BB605A1EF7DC7600B6EBB1 /* Text2SpeechUITests */,
 				76BB60391EF7DC7600B6EBB1 /* Products */,
+				76BB60691EF7E32800B6EBB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +109,7 @@
 				76BB60421EF7DC7600B6EBB1 /* Assets.xcassets */,
 				76BB60441EF7DC7600B6EBB1 /* LaunchScreen.storyboard */,
 				76BB60471EF7DC7600B6EBB1 /* Info.plist */,
+				76BB606E1EF84CAD00B6EBB1 /* S2TViewController.swift */,
 			);
 			path = Text2Speech;
 			sourceTree = "<group>";
@@ -123,6 +130,14 @@
 				76BB605D1EF7DC7600B6EBB1 /* Info.plist */,
 			);
 			path = Text2SpeechUITests;
+			sourceTree = "<group>";
+		};
+		76BB60691EF7E32800B6EBB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76BB606A1EF7E32800B6EBB1 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +208,7 @@
 				TargetAttributes = {
 					76BB60371EF7DC7600B6EBB1 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9DDPTP86JE;
 						ProvisioningStyle = Automatic;
 					};
 					76BB604B1EF7DC7600B6EBB1 = {
@@ -261,6 +277,7 @@
 			files = (
 				76BB603E1EF7DC7600B6EBB1 /* ViewController.swift in Sources */,
 				76BB603C1EF7DC7600B6EBB1 /* AppDelegate.swift in Sources */,
+				76BB606F1EF84CAD00B6EBB1 /* S2TViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -369,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -412,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9DDPTP86JE;
 				INFOPLIST_FILE = Text2Speech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pmico.Text2Speech;
@@ -424,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9DDPTP86JE;
 				INFOPLIST_FILE = Text2Speech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pmico.Text2Speech;
