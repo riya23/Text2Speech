@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("text2speech")
         title = "Text2Speech"
 //        navigationController?.navigationBar.barTintColor = UIColor.black
         navigationController?.navigationBar.barStyle = UIBarStyle.black
