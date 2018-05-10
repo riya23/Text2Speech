@@ -437,8 +437,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.Text2Speech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1542f7f0-c51c-4aa1-a8e4-a705d79d4190";
-				PROVISIONING_PROFILE_SPECIFIER = "@IBM Mobile Wildcard App ID Dev Profile";
+				PROVISIONING_PROFILE = "8b2bd711-07c4-41ab-a6b3-167bebe243f0";
+				PROVISIONING_PROFILE_SPECIFIER = "@IBM MobileFirst Wildcard App ID Dev Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -453,8 +453,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.Text2Speech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1542f7f0-c51c-4aa1-a8e4-a705d79d4190";
-				PROVISIONING_PROFILE_SPECIFIER = "@IBM Mobile Wildcard App ID Dev Profile";
+				PROVISIONING_PROFILE = "8b2bd711-07c4-41ab-a6b3-167bebe243f0";
+				PROVISIONING_PROFILE_SPECIFIER = "@IBM MobileFirst Wildcard App ID Dev Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
