@@ -208,8 +208,8 @@
 				TargetAttributes = {
 					76BB60371EF7DC7600B6EBB1 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = VZ529TRPX5;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = PP64RT7P8Z;
+						ProvisioningStyle = Manual;
 					};
 					76BB604B1EF7DC7600B6EBB1 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -433,14 +433,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VZ529TRPX5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PP64RT7P8Z;
 				INFOPLIST_FILE = Text2Speech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.Text2Speech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "1542f7f0-c51c-4aa1-a8e4-a705d79d4190";
+				PROVISIONING_PROFILE_SPECIFIER = "@IBM Mobile Wildcard App ID Dev Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -451,14 +451,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VZ529TRPX5;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PP64RT7P8Z;
 				INFOPLIST_FILE = Text2Speech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.Text2Speech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "1542f7f0-c51c-4aa1-a8e4-a705d79d4190";
+				PROVISIONING_PROFILE_SPECIFIER = "@IBM Mobile Wildcard App ID Dev Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
